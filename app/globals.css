@@ -14,13 +14,21 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #131413;
     --foreground: #ededed;
+    --dark: #101110;
+    --primary: #92A9E1;
+    --secondary: #7391db;
   }
 }
 
 body {
-  background: var(--background);
+  background: var(--background);  
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.hovered:hover{
+  color: #92A9E1;
+  transition: 0.3s ease-in-out;
 }
