@@ -23,7 +23,7 @@ function page() {
   }, []);
 
   return (
-    <div className="flex flex-col items-center justify-start">
+    <div className="flex flex-col items-center justify-start bg-[var(--background)]">
 
         <Header />
         <Hero />       
