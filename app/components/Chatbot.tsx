@@ -125,7 +125,7 @@ export const Chatbot = () => {
 
             </div>
 
-            {openChatbot && <div className="sm:h-[480px] h-[100dvh] sm:w-[480px] w-full fixed sm:bottom-3 bottom-0 sm:right-3 right-0 
+            {openChatbot && <div className="sm:h-auto h-[100dvh] sm:w-[480px] w-full fixed sm:top-6 top-0 sm:right-3 right-0 
                 flex flex-col items-center justify-start rounded-lg z-2 p-3 bg-[rgba(0,0,0,0.3)]">
 
                 <div className="w-full flex flex-row items-center p-3 bg-[var(--background)] rounded-t-lg">
@@ -151,7 +151,7 @@ export const Chatbot = () => {
 
                 </div>
 
-                <div className="sm:h-full min-h-0 w-full bg-gray-700 flex flex-col rounded-b-lg">
+                <div className="sm:h-full min-h-[85vh] w-full bg-gray-700 flex flex-col rounded-b-lg">
 
                     <div className="flex-1 w-full overflow-y-auto p-3 flex flex-col gap-3">
                         {messages.map((msg, index) => (
