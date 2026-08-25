@@ -13,7 +13,7 @@ function Header() {
     const menuRef = useRef<HTMLDivElement>(null);
 
     return (
-        <div className="sticky top-0 bg-[var(--background)] w-full flex flex-row items-center justify-center py-4 sm:px-0 md:px-3 px-3 border-b border-gray-800">
+        <div className="sticky top-0 bg-[var(--background)] w-full flex flex-row items-center justify-center py-4 sm:px-0 md:px-3 px-3 border-b border-gray-800 z-10">
 
             <div className="max-w-[1280px] w-full flex flex-row items-center justify-start sm:gap-12 gap-0">
                 

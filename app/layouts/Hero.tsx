@@ -5,6 +5,7 @@ import { BookOpen } from "lucide-react"
 import { ChartNoAxesCombinedIcon } from "lucide-react"
 import { Users } from "lucide-react"
 import { GraduationCap } from "lucide-react"
+import { Sparkles } from "lucide-react"
 
 function Hero() {
     return (
@@ -12,7 +13,7 @@ function Hero() {
 
             <div className="max-w-[1280px] w-full h-auto flex flex-row sm:items-center flex-start justify-start">
 
-                <div className="flex flex-row items-center justify-start gap-2 bg-gray-600 p-3 rounded-lg">
+                <div className="flex flex-row items-center justify-start gap-2 bg-gray-700 p-3 rounded-lg">
                     <GraduationCap className="sm:h-6 sm:w-6 h-12 w-12 text-[var(--primary)]" />
                     <span className="font-sans text-md text-[var(--primary)]">Corporate learning platform and development platform.</span>
                 </div>
@@ -41,7 +42,7 @@ function Hero() {
                 <div className="flex-1 flex flex-col items-start justify-start">
 
                     <div className="flex flex-col gap-3">
-                        <span className="font-sans sm:text-lg text-md text-gray-400">Corpnest helps rganizations build a culture of coontinuous learning that drives engagement, develop skills and delivering results.</span>
+                        <span className="font-sans sm:text-lg text-md text-gray-400">Corpnest helps organizations build a culture of continuous learning that drives engagement, develop skills and delivering results.</span>
                         <span className="font-sans sm:text-lg text-md text-gray-400">Start by a company registration. Create courses, video lessons and exams. Hand out employee invitations. Progress tracking and create complition certificates.</span>
                     </div>
 
@@ -67,7 +68,7 @@ function Hero() {
                     </div>
                     <div className="flex flex-col">
                         <span className="font-sans sm:text-lg text-md text-[var(--primary)]">Engaging Learning</span>
-                        <span className="font-sans sm:text-lg text-sm text-gray-400">Interactive courses and real-world content</span>
+                        <span className="font-sans text-md text-gray-400">Interactive courses and real-world content</span>
                     </div>
                 </div>
 
@@ -77,7 +78,7 @@ function Hero() {
                     </div>
                     <div className="flex flex-col">
                         <span className="font-sans sm:text-lg text-md text-[var(--primary)]">Track and Measure</span>
-                        <span className="font-sans sm:text-lg text-sm text-gray-400">Powerful analytics to measure impact</span>
+                        <span className="font-sans text-md text-gray-400">Powerful analytics to measure impact</span>
                     </div>
                 </div>
 
@@ -87,10 +88,27 @@ function Hero() {
                     </div>
                     <div className="flex flex-col">
                         <span className="font-sans sm:text-lg text-md text-[var(--primary)]">Develop Talent</span>
-                        <span className="font-sans sm:text-lg text-sm text-gray-400">Build skills that fuel growth and drive performance</span>
+                        <span className="font-sans text-md text-gray-400">Build skills that fuel growth and drive performance</span>
                     </div>
                 </div>
 
+            </div>
+
+            <div className="max-w-[1280px] w-full h-auto flex sm:flex-row flex-col sm:items-center flex-start justify-start gap-12 p-6 mt-12
+                bg-gray-700 rounded-lg">
+
+                <div className="w-full flex flex-row items-center sm:justify-center justify-start gap-6 flex-wrap">
+                    <Sparkles className="h-12 w-12" />
+                    <div className="flex flex-col items-start gap-3">
+                        <span className="font-sans sm:text-xl text-lg text-[var(--primary)]">
+                            Everything you need to build a learning culture
+                        </span>
+                        <span className="font-sans text-md ">
+                            From onbarding to upskilling, Corpnest helps your team grow together.
+                        </span>
+                    </div>
+                </div>
+                
             </div>
 
         </div>

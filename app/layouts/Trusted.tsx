@@ -21,7 +21,7 @@ function Trusted() {
                             width={160}
                             height={80}
                             alt="Trusted company"
-                            className="brightness-0 invert opacity-30 hover:opacity-70 transition duration-300 ease-in-out cursor-pointer"
+                            className="brightness-0 invert sm:opacity-70 sm:hover:opacity-100 opactiy-100 transition duration-300 ease-in-out cursor-pointer"
                         />
                     ))}
                 </div>

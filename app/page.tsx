@@ -3,6 +3,9 @@
 import Header from "./layouts/Header"
 import Hero from "./layouts/Hero"
 import Trusted from "./layouts/Trusted"
+import Features from "./layouts/Features"
+import Testimonials from "./layouts/Testimonials"
+import CtaSection from "./layouts/CtaSection"
 import Footer from "./layouts/Footer"
 import { Chatbot } from "./components/Chatbot"
 import { useEffect, useState } from "react"
@@ -25,6 +28,9 @@ function page() {
         <Header />
         <Hero />       
         <Trusted /> 
+        <Features />
+        <Testimonials />
+        <CtaSection />
         <Footer />
 
         {chatbot && <Chatbot />}
