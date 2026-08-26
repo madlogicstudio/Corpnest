@@ -5,6 +5,7 @@ import { Menu } from "lucide-react"
 import { X } from "lucide-react"
 import { ChevronDown } from "lucide-react"
 import { useRef, useState } from "react"
+import Link from "next/link"
 
 function Header() {
 
@@ -34,7 +35,7 @@ function Header() {
                 </div>
 
                 <div className="ml-auto sm:flex hidden flex-row items-center sm:gap-3 gap-1">
-                    <span className="border border-gray-600 rounded-lg px-3 py-2 text-sm cursor-pointer">Sign In</span>
+                    <Link href="/login" className="border border-gray-600 rounded-lg px-3 py-2 text-sm cursor-pointer">Sign In</Link>
                     <span className="bg-[var(--secondary)] rounded-lg rounded-lg px-3 py-2 text-sm cursor-pointer">Get Started</span>
                 </div>
 
@@ -69,7 +70,7 @@ function Header() {
                 </div>
 
                 <div className="w-full bg-[var(--dark)] mt-auto flex flex-row items-center gap-3 justify-between py-4 px-3">
-                    <span className="flex-1 text-center border border-gray-600 rounded-lg px-3 py-2 text-sm cursor-pointer">Sign In</span>
+                    <Link href="/login" className="flex-1 text-center border border-gray-600 rounded-lg px-3 py-2 text-sm cursor-pointer">Sign In</Link>
                     <span className="flex-1 text-center bg-[var(--secondary)] rounded-lg rounded-lg px-3 py-2 text-sm cursor-pointer">Get Started</span>
                 </div>
 

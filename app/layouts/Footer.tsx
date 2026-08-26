@@ -23,10 +23,6 @@ function Footer() {
                     </div>
 
                     <div className="flex flex-row items-center justify-start gap-3 py-6">
-                        {/* <span className="font-sans text-md text-gray-400 cursor-pointer hovered">Facebook</span>
-                        <span className="font-sans text-md text-gray-400 cursor-pointer hovered">Twitter</span>
-                        <span className="font-sans text-md text-gray-400 cursor-pointer hovered">Github</span>
-                        <span className="font-sans text-md text-gray-400 cursor-pointer hovered">Tiktok</span> */}
                         <FaFacebook className="h-7 w-7 text-gray-400 cursor-pointer hovered" />
                         <FaInstagram className="h-7 w-7 text-gray-400 cursor-pointer hovered" />
                         <FaTwitter className="h-7 w-7 text-gray-400 cursor-pointer hovered" />
@@ -36,8 +32,8 @@ function Footer() {
 
                     <div className="flex flex-col items-start justify-start gap-3">
                         <span className="font-sans text-md text-gray-400">Get product updates and news from Corpnest.</span>
-                        <input type="email" name="" placeholder="Your email" className="bg-[var(--dark)] sm:w-full w-auto outline-none border border-gray-600 rounded-lg p-2 sm:text-md text-sm" />
-                        <span className="bg-[var(--secondary)] rounded-lg rounded-lg px-3 py-2 sm:text-md text-sm cursor-pointer">Subscribe</span>
+                        <input type="email" name="" placeholder="Your email" className="sm:w-[320px] w-full bg-[var(--dark)] sm:w-full w-auto outline-none border border-gray-600 rounded-lg p-2 sm:text-md text-sm" />
+                        <span className="sm:w-[320px] w-full bg-[var(--secondary)] rounded-lg rounded-lg px-3 py-2 sm:text-md text-sm text-center cursor-pointer">Subscribe</span>
                     </div>
 
                 </div>
@@ -95,7 +91,7 @@ function Footer() {
             </div>
 
             <div className="max-w-[1280px] w-full flex flex-row items-center justify-start gap-3 border-t border-gray-800 pt-8">
-                <span className="font-sans text-sm text-gray-400">© 2026 Corpnest.</span>
+                <span className="font-sans text-sm text-gray-400">© 2026 Corpnest, Madlogicstudio.</span>
             </div>
 
 
