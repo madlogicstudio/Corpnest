@@ -120,25 +120,9 @@ function page() {
 
                             <span className="sm:w-[360px] w-full p-x-3 py-2 font-sans text-md bg-[var(--primary)] text-center rounded-lg cursor-pointer mt-6">Sign in</span>
 
-                            <div className="w-full flex items-center gap-4 my-6">
-                                <div className="h-px flex-1 bg-[var(--primary)]" />
-
-                                <span className="text-sm text-[var(--primary)]">
-                                    or continue with
-                                </span>
-
-                                <div className="h-px flex-1 bg-[var(--primary)]" />
-                            </div>
-
-                            <div className="sm:w-[360px] w-full flex flex-row items-center justify-center gap-3 px-3 py-2 cursor-pointer border rounded-lg 
-                                hover:bg-[var(--primary)] text-[var(--primary)] hover:text-[var(--background)]">
-                                <FaGoogle />
-                                <span className="font-sans text-md">Google</span>
-                            </div>
-
                             <div className="mt-12">
                                 <span className="font-sans sm:text-md text-sm text-gray-400 text-center">Don't have a company account? </span>
-                                <span className="font-sans sm:text-md text-sm text-[var(--primary)] text-center cursor-pointer ml-1">Sign up</span>
+                                <Link href="/signup/company" className="font-sans sm:text-md text-sm text-[var(--primary)] text-center cursor-pointer ml-1">Sign up</Link>
                             </div>
 
                             <div className="mt-12 text-center">

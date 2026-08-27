@@ -6,6 +6,7 @@ import { ChartNoAxesCombinedIcon } from "lucide-react"
 import { Users } from "lucide-react"
 import { GraduationCap } from "lucide-react"
 import { Sparkles } from "lucide-react"
+import Image from "next/image"
 
 function Hero() {
     return (
@@ -37,9 +38,21 @@ function Hero() {
                         
                         <span className="bg-[var(--secondary)] rounded-lg rounded-lg px-6 py-2 sm:text-md text-sm cursor-pointer">Get Started</span>
                     </div> 
+
+                    <div className="flex-1 sm:flex hidden flex-col items-start justify-start">
+
+                        <div className="flex flex-col gap-3">
+                            <span className="font-sans sm:text-lg text-md text-gray-400">Corpnest helps organizations build a culture of continuous learning that drives engagement, develop skills and delivering results.</span>
+                            <span className="font-sans sm:text-lg text-md text-gray-400">Start by a company registration. Create courses, video lessons and exams. Hand out employee invitations. Progress tracking and create complition certificates.</span>
+                        </div>
+
+                    </div>
+
                 </div>
 
-                <div className="flex-1 flex flex-col items-start justify-start">
+                <Image src="/images/Hero.png" height={600} width={600} alt=""/>
+
+                <div className="flex-1 sm:hidden flex flex-col items-start justify-start">
 
                     <div className="flex flex-col gap-3">
                         <span className="font-sans sm:text-lg text-md text-gray-400">Corpnest helps organizations build a culture of continuous learning that drives engagement, develop skills and delivering results.</span>

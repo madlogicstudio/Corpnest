@@ -13,7 +13,7 @@ function Footer() {
     return (
         <div className="w-full flex flex-col items-center justify-center py-4 sm:px-0 md:px-3 px-3 border-t border-gray-800">
 
-            <div className="max-w-[1280px] w-full flex sm:flex-row flex-col items-start justify-start gap-12 py-20">
+            <div className="max-w-[1280px] w-full flex sm:flex-row flex-col items-start justify-start gap-12 py-20 flex-wrap">
 
                 <div className="flex-2 flex flex-col items-start justify-start gap-3">
 

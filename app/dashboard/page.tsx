@@ -1,8 +1,8 @@
-import React from 'react'
+'use client'
 
 function page() {
     return (
-        <div>Signup</div>
+        <div>Dashboard</div>
     )
 }
 

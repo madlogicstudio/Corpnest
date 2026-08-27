@@ -143,7 +143,7 @@ function page() {
 
                             <div className="mt-12">
                                 <span className="font-sans sm:text-md text-sm text-gray-400 text-center">Don't have an employee account? </span>
-                                <span className="font-sans sm:text-md text-sm text-[var(--primary)] text-center cursor-pointer ml-1">Sign up</span>
+                                <Link href="/signup/employee" className="font-sans sm:text-md text-sm text-[var(--primary)] text-center cursor-pointer ml-1">Sign up</Link>
                             </div>
 
                             <div className="mt-12 text-center">
