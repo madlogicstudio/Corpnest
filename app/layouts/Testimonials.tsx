@@ -1,6 +1,6 @@
 'use client'
 
-import { TestimonialCard } from "../../components/TestimonialCard"
+import { TestimonialCard } from "../../components/landing/TestimonialCard"
 
 function Testimonials() {
     return (

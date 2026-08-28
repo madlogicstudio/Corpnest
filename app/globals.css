@@ -54,10 +54,22 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
+    --dashboard-bg: #202324;
     --dark: #101110;
-    --primary: #92A9E1;
+    --primary: #bbc5df;
     --secondary: #7391db;
     --gray: #181A19;
+  }
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
 }
 
@@ -142,5 +154,6 @@
   body {
     background: var(--background);
     color: var(--foreground);
+
   }
 }

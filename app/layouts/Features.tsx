@@ -1,6 +1,6 @@
 'use client'
 
-import { FeautreCard } from "../../components/FeautreCard"
+import { FeautreCard } from "../../components/landing/FeautreCard"
 import { SquareLibrary, Video, FileText, ChartSpline, Award, UsersRound, ChartNoAxesCombined, Bell } from "lucide-react"
 
 function Features() {

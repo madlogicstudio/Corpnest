@@ -2,8 +2,8 @@
 
 import { useState, useEffect } from "react"
 import Image from "next/image"
-import { TwinOrbit } from "@/components/TwinOrbit"
-import { Chatbot } from "@/components/Chatbot"
+import { TwinOrbit } from "@/components/landing/TwinOrbit"
+import { Chatbot } from "@/components/landing/Chatbot"
 import Footer from "@/app/layouts/Footer"
 import { Building2, ArrowRight, BookOpen, Eye, EyeOff } from "lucide-react"
 import { FaGoogle } from "react-icons/fa"

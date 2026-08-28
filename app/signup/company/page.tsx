@@ -1,9 +1,9 @@
 'use client'
 
 import { useState, useEffect } from "react"
-import { TwinOrbit } from "@/components/TwinOrbit"
+import { TwinOrbit } from "@/components/landing/TwinOrbit"
 import Image from "next/image"
-import { Chatbot } from "@/components/Chatbot"
+import { Chatbot } from "@/components/landing/Chatbot"
 import Footer from "@/app/layouts/Footer"
 import { BookOpen, EyeOff, Eye, Building2 } from "lucide-react"
 import Link from "next/link"

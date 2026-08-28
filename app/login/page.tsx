@@ -2,8 +2,8 @@
 
 import Image from "next/image"
 import { useEffect, useState } from "react"
-import { TwinOrbit } from "@/components/TwinOrbit"
-import { Chatbot } from "@/components/Chatbot"
+import { TwinOrbit } from "@/components/landing/TwinOrbit"
+import { Chatbot } from "@/components/landing/Chatbot"
 import { Building2, ArrowRight, User, BookOpen } from "lucide-react"
 import Footer from "../layouts/Footer"
 import Link from "next/link"

@@ -7,57 +7,57 @@ import Features from "./layouts/Features"
 import Testimonials from "./layouts/Testimonials"
 import CtaSection from "./layouts/CtaSection"
 import Footer from "./layouts/Footer"
-import { Chatbot } from "../components/Chatbot"
+import { Chatbot } from "../components/landing/Chatbot"
 import { useEffect, useState } from "react"
-import { TwinOrbit } from "@/components/TwinOrbit"
+import { TwinOrbit } from "@/components/landing/TwinOrbit"
 
 function page() {
 
-  const [chatbot, setChatbot] = useState(false);
+    const [chatbot, setChatbot] = useState(false);
 
-  useEffect(() => {
+    useEffect(() => {
 
-    setInterval(() => {
-      setChatbot(true);
-    }, 3000);
+        setInterval(() => {
+        setChatbot(true);
+        }, 3000);
 
-  }, []);
+    }, []);
 
-  const [loading, setLoading] = useState(true)
+    const [loading, setLoading] = useState(true)
 
-  useEffect(() => {
-      const timer = setTimeout(() => {
-          setLoading(false)
-      }, 1000)
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setLoading(false)
+        }, 1000)
 
-      return () => clearTimeout(timer)
-  }, [])
+        return () => clearTimeout(timer)
+    }, [])
 
-  if (loading) {
-      return (
-          <div className="min-h-screen w-full flex items-center justify-center bg-[var(--background)]">
-              <div className="flex flex-col items-center gap-3">
-                  <TwinOrbit className="size-3.5 text-[var(--primary)]" />
-              </div>
-          </div>
-      )
-  }
+    if (loading) {
+        return (
+            <div className="min-h-screen w-full flex items-center justify-center bg-[var(--background)]">
+                <div className="flex flex-col items-center gap-3">
+                    <TwinOrbit className="size-3.5 text-[var(--primary)]" />
+                </div>
+            </div>
+        )
+    }
 
-  return (
-    <div className="flex flex-col items-center justify-start bg-[var(--background)]">
+    return (
+        <div className="flex flex-col items-center justify-start bg-[var(--background)]">
 
-        <Header />
-        <Hero />       
-        <Trusted /> 
-        <Features />
-        <Testimonials />
-        <CtaSection />
-        <Footer />
+            <Header />
+            <Hero />       
+            <Trusted /> 
+            <Features />
+            <Testimonials />
+            <CtaSection />
+            <Footer />
 
-        {chatbot && <Chatbot />}
+            {chatbot && <Chatbot />}
 
-    </div>
-  )
+        </div>
+    )
 }
 
 export default page
